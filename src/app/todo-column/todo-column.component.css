@@ -1,0 +1,21 @@
+h2 {
+  color: #333;
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.column {
+  width: 30%;
+}
+
+.ng-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-job-item {
+  margin-bottom: 10px;
+}

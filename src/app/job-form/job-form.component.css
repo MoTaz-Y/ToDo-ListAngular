@@ -1,0 +1,27 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input,
+textarea,
+select {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+button {
+  align-self: flex-end;
+  padding: 10px 20px;
+  background-color: #28a745;
+}
+
+button:hover {
+  background-color: #218838;
+}

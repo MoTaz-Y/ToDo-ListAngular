@@ -1,0 +1,11 @@
+<div class="job-item card mb-3 p-3">
+  <h5 class="card-title">{{ job.title }}</h5>
+  <p class="card-text">{{ job.description }}</p>
+  <div class="d-flex justify-content-between">
+    <div>
+      <button (click)="changeStatus('doing')">Change to Doing</button>
+      <button (click)="changeStatus('done')">Change to Done</button>
+      <button (click)="deleteJob()">Delete</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+.columns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.columns .column {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.app-job-form {
+  margin-bottom: 20px;
+}

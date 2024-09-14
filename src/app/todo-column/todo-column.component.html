@@ -1,0 +1,10 @@
+<div>
+  <h2>{{ status | uppercase }}</h2>
+  <ng-container *ngFor="let job of jobs">
+    <app-job-item
+      [job]="job"
+      (onDelete)="deleteJob(job.id)"
+      (onChangeStatus)="changeStatus(job.id, $event)"
+    ></app-job-item>
+  </ng-container>
+</div>
