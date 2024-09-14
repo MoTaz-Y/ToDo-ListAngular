@@ -6,6 +6,7 @@ import { Job } from '../job.service';
   imports: [],
   selector: 'app-job-item',
   templateUrl: './job-item.component.html',
+  styleUrls: ['./job-item.component.css'],
 })
 export class JobItemComponent {
   @Input() job!: Job;
